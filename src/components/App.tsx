@@ -1,9 +1,10 @@
 import { useState } from 'react'
+
+import loadingSpinner from '../assets/images/loading.gif'
+import marvel from '../services/marvelApi'
+import CharactersList from './CharactersList'
 import Header from './Header'
 import SearchBox from './SearchBox'
-import CharactersList from './CharactersList'
-import marvel from '../services/marvelApi'
-import loadingSpinner from '../assets/images/loading.gif'
 
 function App() {
   const [metadata, setMetadata] = useState({})
@@ -19,7 +20,7 @@ function App() {
 
     try {
       const { data } = await marvel.search(search, page)
-      const { results, ...responseMetadata } = data.data
+      const { results, ...responseMetadata } = data
       setMetadata(responseMetadata)
       setCharacters(results)
     } catch (ex) {
@@ -36,7 +37,7 @@ function App() {
         <div className="container bg-white">
           <SearchBox submitSearch={submitSearch} />
 
-          <div className={(loading || characters.length) ? 'd-block' : 'd-none'}>
+          <div className={loading || characters.length ? 'd-block' : 'd-none'}>
             <hr />
 
             {loading ? (
