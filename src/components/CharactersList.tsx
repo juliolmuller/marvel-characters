@@ -1,9 +1,8 @@
 import { useState } from 'react'
 
-import CharacterCard from '../CharacterCard'
-import CharacterModal from '../CharacterModal'
-import Pagination from '../Pagination'
-import './styles.scss'
+import CharacterCard from './CharacterCard'
+import CharacterModal from './CharacterModal'
+import Pagination from './Pagination'
 
 interface CharactersListProps {
   goToPage: (page: number) => any
