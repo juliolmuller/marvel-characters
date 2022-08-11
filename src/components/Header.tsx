@@ -1,5 +1,4 @@
-import logo from '../../assets/images/logo-marvel.png'
-import './styles.scss'
+import logo from '../assets/images/logo-marvel.png'
 
 function Header() {
   return (
@@ -10,16 +9,16 @@ function Header() {
         </figure>
 
         <div
-          className="h6 text-white px-1 d-flex justify-content-between"
+          className="h5 text-white px-3 d-flex justify-content-between"
           aria-hidden="true"
           style={{ zIndex: 1, marginTop: '-24px' }}
         >
           {'CHARACTERS'.split('').map((letter, index) => (
-            <div key={index}>{letter}</div>
+            <span key={index}>{letter}</span>
           ))}
         </div>
 
-        <h1 className="sr-only">Characters of the Marvel Comics Universe</h1>
+        <h1 className="sr-only">Characters of the Marvel Universe</h1>
       </div>
     </div>
   )
