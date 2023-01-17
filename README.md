@@ -56,15 +56,15 @@ This application was proposed by [Juno](https://www.juno.com.br/), as part of th
 ## :rocket: Technologies & Resources
 
 **Frontend:**
-- [React ~~16.9~~17](https://reactjs.org)
-- [Bootstrap 4](https://getbootstrap.com/)
-- [jQuery 3](https://jquery.com/)
-- [Axios](https://github.com/axios/axios) (HTTP client)
+- [React v18](https://reactjs.org) (originally developed in v16)
+- [Bootstrap v4](https://getbootstrap.com/)
+- [jQuery v3](https://jquery.com/)
+- [~~Axios~~](https://github.com/axios/axios) (HTTP client) (recently migrated to `fetch` API)
 
 **Development:**
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Cmder](https://cmder.net/) (terminal emulator)
-- [Node.js](https://nodejs.org/en/) scripts (with Laravel Mix)
+- [Node.js](https://nodejs.org/en/) scripts
 
 ## :hammer: Setting up the Environment
 
