@@ -34,3 +34,20 @@ body {
   color: #fff;
   background: #ed1d24;
 }
+
+.github-corner {
+  position: fixed;
+  top: 0;
+  right: 0;
+
+  img {
+    width: 8vw;
+    width: 8lvw;
+    min-width: 64px;
+    aspect-ratio: 1/1;
+  }
+}
+
+.modal {
+  backdrop-filter: blur(4px);
+}

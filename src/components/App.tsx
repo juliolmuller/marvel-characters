@@ -1,8 +1,10 @@
 import { useState } from 'react'
 
 import loadingSpinner from '../assets/images/loading.gif'
+import githubCorner from '../assets/images/github-corner-right.svg'
 import marvel from '../services/marvelApi'
 import CharactersList from './CharactersList'
+import EndOfSupportModal from './EndOfSupportModal'
 import Header from './Header'
 import SearchBox from './SearchBox'
 
@@ -32,7 +34,19 @@ function App() {
 
   return (
     <>
+      <a
+        href="https://github.com/juliolmuller/marvel-characters"
+        title="View on GitHub"
+        className="github-corner"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img src={githubCorner} alt="GitHub Corner" />
+      </a>
+
+      <EndOfSupportModal />
       <Header />
+
       <div className="container-fluid py-5">
         <div className="container bg-white">
           <SearchBox submitSearch={submitSearch} />

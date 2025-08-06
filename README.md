@@ -1,6 +1,10 @@
 <h1 align="center">
-  :izakaya_lantern: Marvel Characters Search App
+  ⚠️⚠️⚠️ End of Support ⚠️⚠️⚠️
 </h1>
+
+> Due to the sunset of Marvel's public API, this project can no longer work properly and will no longer receive support of the creator or any other contributor. DO NOT submit PR's or issues.
+
+---
 
 <p align="center">
   <a href="#pencil-objectives">Objectives</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -15,8 +19,6 @@
   <img src="https://img.shields.io/github/last-commit/juliolmuller/marvel-characters?label=updated%20at&labelColor=000000&color=ed1d24" alt="Update Date" />
 
   <img src="https://img.shields.io/github/v/tag/juliolmuller/marvel-characters?label=latest%20version&labelColor=000000&color=ed1d24" alt="Latest Version" />
-
-  <img src="https://img.shields.io/static/v1?labelColor=000000&color=ed1d24&label=PRs&message=welcome" alt="Pull Requests Welcome" />
 
   <img src="https://img.shields.io/github/license/juliolmuller/marvel-characters?labelColor=000000&color=ed1d24" alt="Project License" />
 </p>

@@ -3,7 +3,7 @@ import logo from '../assets/images/logo-marvel.png'
 function Header() {
   return (
     <div className="container-fluid py-4 bg-marvel">
-      <div className="mx-auto w-25">
+      <div className="mx-auto w-25" style={{ minWidth: `240px` }}>
         <figure className="figure w-100">
           <img className="figure-img img-fluid" src={logo} alt="Marvel Comics logo" />
         </figure>
