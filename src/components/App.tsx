@@ -3,6 +3,7 @@ import { useState } from 'react'
 import loadingSpinner from '../assets/images/loading.gif'
 import marvel from '../services/marvelApi'
 import CharactersList from './CharactersList'
+import EndOfSupportModal from './EndOfSupportModal'
 import Header from './Header'
 import SearchBox from './SearchBox'
 
@@ -32,7 +33,9 @@ function App() {
 
   return (
     <>
+      <EndOfSupportModal />
       <Header />
+
       <div className="container-fluid py-5">
         <div className="container bg-white">
           <SearchBox submitSearch={submitSearch} />
