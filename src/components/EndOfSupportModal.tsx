@@ -7,7 +7,7 @@ function EndOfSupportModal() {
   }, [])
 
   return (
-    <div id="end-of-support" className="modal fade" role="dialog" tabIndex={1}>
+    <div id="end-of-support" className="modal fade" role="dialog" tabIndex={-1}>
       <div className="modal-dialog modal-dialog-centered" role="document">
         <div className="modal-content">
           <div className="modal-header d-flex flex-column align-items-center">
